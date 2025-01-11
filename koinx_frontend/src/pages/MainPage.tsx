@@ -3,6 +3,8 @@ import WidgetContainer from "../components/WidgetContainer";
 import Toggle from "../components/Toggle.tsx";
 import Performance from "../components/Performance.tsx";
 import Sentiment from "../components/Sentiment.tsx";
+import About from "../components/About.tsx";
+
 function MainPage() {
   return (
     <div className="h-full w-screen bg-slate-200/40">
@@ -13,6 +15,7 @@ function MainPage() {
            <Toggle/>
            < Performance />
            <Sentiment/>
+           <About/>
         </div>
 
     </div>
