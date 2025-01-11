@@ -8,7 +8,7 @@ import Tokenomics from "../components/Tokenomics.tsx";
 import Team from "../components/Team.tsx";
 import Promo from "../components/Promo.tsx";
 import TrendingCoins from "../components/TrendingCoins.tsx";
-import Suggestion from "../components/suggestion.tsx";
+import Suggestion from "../components/Suggestion.tsx";
 
 function MainPage() {
   return (

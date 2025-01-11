@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-function suggestion() {
+function Suggestion() {
  const [cryptoData, setCryptoData] = useState([]);
 
   useEffect(() => {
@@ -85,4 +85,4 @@ function CryptoCard({ cryptoData }: any) {
   );
 }
 
-export default suggestion
+export default Suggestion
