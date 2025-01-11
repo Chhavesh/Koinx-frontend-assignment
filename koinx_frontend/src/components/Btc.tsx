@@ -1,6 +1,8 @@
 import {useEffect, useState} from 'react'
 import axios from 'axios';
 import img from "../assets/btc.png";
+import chart from "../assets/chart.jpg";
+
 interface CryptoData {
   inr: number;
   inr_24h_change: number;
@@ -104,7 +106,7 @@ function Btc(): JSX.Element {
         </div>
       </div>
       <div className="lg:h-[420px] h-[300px]">
-        {/* <TradingViewWidget /> */}
+         <img src={chart} alt="Logo"  style={{ height: "100%", width: "100%" }}></img>
       </div>
     </div>
   );
