@@ -4,6 +4,7 @@ import Toggle from "../components/Toggle.tsx";
 import Performance from "../components/Performance.tsx";
 import Sentiment from "../components/Sentiment.tsx";
 import About from "../components/About.tsx";
+import Tokenomics from "../components/Tokenomics.tsx";
 
 function MainPage() {
   return (
@@ -16,6 +17,7 @@ function MainPage() {
            < Performance />
            <Sentiment/>
            <About/>
+           <Tokenomics/>
         </div>
 
     </div>
