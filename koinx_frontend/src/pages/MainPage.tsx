@@ -5,6 +5,7 @@ import Performance from "../components/Performance.tsx";
 import Sentiment from "../components/Sentiment.tsx";
 import About from "../components/About.tsx";
 import Tokenomics from "../components/Tokenomics.tsx";
+import Team from "../components/Team.tsx";
 
 function MainPage() {
   return (
@@ -18,6 +19,7 @@ function MainPage() {
            <Sentiment/>
            <About/>
            <Tokenomics/>
+           <Team/>
         </div>
 
     </div>
