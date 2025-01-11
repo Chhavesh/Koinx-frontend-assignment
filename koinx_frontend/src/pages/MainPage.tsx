@@ -7,6 +7,7 @@ import About from "../components/About.tsx";
 import Tokenomics from "../components/Tokenomics.tsx";
 import Team from "../components/Team.tsx";
 import Promo from "../components/Promo.tsx";
+import TrendingCoins from "../components/TrendingCoins.tsx";
 function MainPage() {
   return (
     <div className="h-full w-screen bg-slate-200/40">
@@ -23,6 +24,7 @@ function MainPage() {
         </div>
       <div className="lg:w-4/12 lg:mr-14 mx-4">
           <Promo/>
+          <TrendingCoins/>
         </div>
     </div>
     </div>
