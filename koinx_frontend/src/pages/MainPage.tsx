@@ -9,6 +9,7 @@ import Team from "../components/Team.tsx";
 import Promo from "../components/Promo.tsx";
 import TrendingCoins from "../components/TrendingCoins.tsx";
 import Suggestion from "../components/suggestion.tsx";
+
 function MainPage() {
   return (
     <div className="h-full w-screen bg-slate-200/40">
@@ -30,7 +31,7 @@ function MainPage() {
     </div>
     <Suggestion/>
     </div>
-  )
+  );
 }
 
-export default MainPage
+export default MainPage;
