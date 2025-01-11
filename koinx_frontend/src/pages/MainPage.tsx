@@ -2,6 +2,7 @@ import Btc from "../components/Btc";
 import WidgetContainer from "../components/WidgetContainer";
 import Toggle from "../components/Toggle.tsx";
 import Performance from "../components/Performance.tsx";
+import Sentiment from "../components/Sentiment.tsx";
 function MainPage() {
   return (
     <div className="h-full w-screen bg-slate-200/40">
@@ -11,6 +12,7 @@ function MainPage() {
            <Btc />
            <Toggle/>
            < Performance />
+           <Sentiment/>
         </div>
 
     </div>
